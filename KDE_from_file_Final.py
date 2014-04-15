@@ -88,8 +88,8 @@ def main():
     if(Input_type == 'Read data'):
         '''Read data reads the actual data from the json file'''
         #read data from a json file
-        #data_dict = read_json('sample_json')
-        data_dict = read_json('sample_json_sparse.txt')
+        data_dict = read_json('sample_json')
+        #data_dict = read_json('sample_json_sparse.txt')
         fig_title = 'Gaussian distribution'
 
     #actual length of the data got by any of the means above
